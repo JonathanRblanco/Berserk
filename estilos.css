@@ -5,7 +5,7 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-image: url(/Imagenes/fondopersonajes.jpg);
+    background-image: url(fondopersonajes.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
