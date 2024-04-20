@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+}
+body{
+    background-image: url(/Imagenes/nuevofondo.jpg);
+    background-size:100%;
+    background-position: top;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: auto;
+}
+
+.encabezado{
+    width: 100%;
+    text-align: center;
+    background:linear-gradient(black,grey)
+}
+.encabezado img{
+    width: 25%;
+}
+.titulo{
+    color:rgb(184, 3, 3);
+    text-align: center;
+    font-size: xxx-large;
+}
+.otrolink{
+    text-decoration: none;
+}
+.otrolink:visited{
+    color: rgb(184, 3, 3);
+}
+.otrolink:any-link{
+    color: rgb(184, 3, 3);
+}
+.contenedor{
+    margin: 3%;
+    width: 90%;
+    background-color: black;
+    display: flex;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    border:solid rgb(184, 3, 3);
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor h1{
+    color:rgb(184, 3, 3);
+    font-size: xxx-large;
+    text-align: center;
+}
+.contenedor p{
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+.imagen{
+    width: 40%;
+    justify-self: center;
+    border:solid rgb(184, 3, 3);
+    border-radius: 3%;
+    margin-top: 1%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+    overflow: hidden;
+}
+.imagen img{
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
+button {
+    width: 100% auto;
+    height: 45px;
+    font-size: 23px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    color:rgb(184, 3, 3);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    position: relative;
+    transition: all 0.5s;
+    z-index: 1;
+    margin-left: 35px;
+   }
+   
+   button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+    z-index: -1;
+    transition: all 0.5s;
+   }
+   
+   button:hover::before {
+    width: 100%;
+   }
+   
+   button:hover {
+    color: rgb(184, 3, 3);
+   }
+   
+   button:active:before {
+    background: #b9b9b9;
+   }
